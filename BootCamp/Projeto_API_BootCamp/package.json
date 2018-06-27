@@ -1,0 +1,24 @@
+{
+  "name": "projeto_api_bootcamp",
+  "version": "0.0.1",
+  "description": "API de gestão de tarefas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Lucas C. Barros",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "express-validator": "^5.2.0",
+    "jwt-simple": "^0.5.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^4.37.10",
+    "sqlite3": "^4.0.0"
+  }
+}
